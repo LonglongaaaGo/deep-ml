@@ -21,7 +21,6 @@ def gradient_direction_magnitude(gradient: list) -> dict:
     else:
         direction = gradient/magnitude
     descent_direction = -direction
-
     return {"magnitude":magnitude,"direction":direction,"descent_direction":descent_direction}
 
 
