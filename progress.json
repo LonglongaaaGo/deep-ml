@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T15:36:57.252Z",
+  "generated_at": "2026-11-21T15:40:30.365Z",
   "items": {
     "math:7": {
       "kind": "math",
@@ -107,6 +107,19 @@
       "path": "problems/0002-transpose-of-a-matrix",
       "first_solved_at": "2026-11-21T15:36:56.253Z",
       "last_pushed_at": "2026-11-21T15:36:56.253Z",
+      "language": "python",
+      "lines": 17
+    },
+    "problem:5": {
+      "kind": "problem",
+      "id": "5",
+      "title": "Scalar Multiplication of a Matrix",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/5",
+      "path": "problems/0005-scalar-multiplication-of-a-matrix",
+      "first_solved_at": "2026-11-21T15:40:29.726Z",
+      "last_pushed_at": "2026-11-21T15:40:29.726Z",
       "language": "python",
       "lines": 17
     }
