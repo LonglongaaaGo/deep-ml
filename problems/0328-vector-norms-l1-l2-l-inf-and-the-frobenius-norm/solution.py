@@ -15,16 +15,15 @@ def compute_norm(arr: torch.Tensor, norm_type: str) -> float:
         The computed norm as a float
     """
     if norm_type == "l1":
-        out = torch.linalg.vector_norm(arr, ord=1)
-        # out = torch.linalg.vector_norm(arr, ord=1)
+        out = torch.linalg.vector_norm(arr,ord =1)
     elif norm_type == "l2":
-        out = torch.linalg.vector_norm(arr, ord=2)
+        out = torch.linalg.vector_norm(arr,ord =2)
     elif norm_type == "linf":
-        out = torch.linalg.vector_norm(arr, ord=float("inf"))
+        out = torch.linalg.vector_norm(arr,float('inf'))
     elif norm_type == "frobenius":
         if arr.ndim != 2:
             raise ValueError("Frobenius norm requires a 2D tensor.")
-        out = torch.linalg.matrix_norm(arr, ord="fro")
+        out = torch.linalg.matrix_norm(arr,ord = 'fro')
     else:
         raise ValueError(f"Unsupported norm_type: {norm_type}")
 
