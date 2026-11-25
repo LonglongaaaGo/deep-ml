@@ -18,11 +18,7 @@ def inverse_2x2(matrix) -> torch.Tensor | None:
 
     if  det_ == 0:
         return None
-    # m[0,0] = d/det_
-    # m[0,1] = -b/det_
-    # m[1,0] = -c/det_
-    # m[1,1] = a/det_
-
+        
     return torch.tensor([d,-b,-c,a],dtype=m.dtype,device = m.device)/det_
 
     
